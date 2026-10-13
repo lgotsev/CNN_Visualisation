@@ -452,7 +452,7 @@ const CNNVisualization = () => {
     <div className="w-full h-full bg-gradient-to-br from-blue-50 to-indigo-50 p-6 overflow-auto">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold text-center mb-2 text-indigo-900">
-          Интерактивна Визуализация на Конволюционна Невронна Мрежа
+          Интерактивна визуализация на конволюционна невронна мрежа (CNN)
         </h1>
         <p className="text-center text-gray-600 mb-6">MNIST Dataset - Разпознаване на ръкописни цифри</p>
 
