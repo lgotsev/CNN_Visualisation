@@ -487,7 +487,7 @@ const CNNVisualization = () => {
             </div>
             
             <div>
-              <label className="block text-sm font-medium mb-2">Stride (крачка): {stride}</label>
+              <label className="block text-sm font-medium mb-2">Stride (стъпка): {stride}</label>
               <input 
                 type="range" 
                 min="1" 
@@ -748,7 +748,7 @@ const CNNVisualization = () => {
             ))}
           </div>
           <p className="text-sm text-gray-600 mt-4">
-            ℹ️ Pooling намалява размерността {featureMaps[0].length}x{featureMaps[0][0].length} → {pooledMaps[0].length}x{pooledMaps[0][0].length} и прави мрежата по-робастна към малки измествания
+            ℹ️ Pooling намалява размерността {featureMaps[0].length}x{featureMaps[0][0].length} → {pooledMaps[0].length}x{pooledMaps[0][0].length} и прави мрежата по-устойчива на малки измествания.
           </p>
         </div>
 
